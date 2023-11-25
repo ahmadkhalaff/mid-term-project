@@ -1,0 +1,114 @@
+.parent_ {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 768px)
+ {
+    .parent_ {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+.CategoryCard{
+height: 700px;
+width: 500px;
+background-size: cover;
+background-position: center;
+justify-content: flex-start;
+flex-direction: column;
+align-items: flex-end;
+padding-left: 4rem;
+padding-right: 4rem;
+justify-items: center;
+align-items: center;
+margin: 1rem;
+
+}
+
+.subheading{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mainheading{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parent_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.right_banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left: 4rem;
+padding-right: 4rem;
+}
+
+.bannerheading{
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.paragraphtext{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.custombutton{
+background-color: #000;
+color: #fff;
+padding: 1rem 2rem;
+border-radius: 0.5rem;
+text-transform: uppercase;
+margin:auto;
+font-size: 20px;
+
+margin-top: 3rem;
+
+}
+
+._brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+@media (max-width: 768px)
+ {
+    .parent_banner {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+

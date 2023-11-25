@@ -1,0 +1,49 @@
+.shirts_container{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+
+.parent_shirts_container{
+display: flex;
+flex-direction: column;
+margin-Top: 10px;
+gap: 5px;
+margin-top: 5px;
+width: 100%;
+justify-content: center;
+text-align: center;
+}
+
+.listing_heading{
+font-size: 2rem;
+font-weight: 300;
+color: black;
+text-transform: uppercase;
+margin-bottom: 5px;
+
+}
+
+.product_card{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.product_card:hover{
+    border: 2px solid #CA7A7A;
+}
+
+.priceText{
+color: #CA7A7A;
+
+}

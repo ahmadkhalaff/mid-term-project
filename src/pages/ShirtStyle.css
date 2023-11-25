@@ -1,0 +1,62 @@
+._single_shirt_Parent{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+margin-top: 1.5rem;
+width: 100%;
+justify-content: center;
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+._single_shirt_Parent h1{
+font-size: 2rem;
+font-weight: 300;
+color: black;
+text-transform: uppercase;
+margin-bottom: 1.5rem;
+}
+
+.successText{
+color: green;}
+
+.errorText{
+color: red;}
+
+._form_Parent{
+display: flex;
+flex-direction: row;
+gap: 1.5rem;
+margin-top: 1.5rem;
+width: 100%;
+justify-content: center;
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+._form_fields_container{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+margin-top: 1.5rem;
+justify-content: center;
+padding-left: 50px;
+}
+
+.button_container{
+display: flex;
+flex-direction: row;
+gap: 1.5rem;
+margin-top: 1.5rem;
+justify-content: center;
+text-align: center;
+}
+
+._action_button{
+background: black;
+color: white;
+width: max-content;
+padding: 0.5rem 1rem;
+text-transform: uppercase;
+margin-top: 1.5rem;
+}
